@@ -5,10 +5,11 @@ A modular backend for **document ingestion** and **conversational RAG** with mul
 **Key Features:**  
 - Upload `.pdf` / `.txt` documents  
 - Two chunking strategies for text  
-- Generate embeddings (Sentence Transformers="all-MiniLM-L6-v2")  
-- Store metadata & booking info in **MySQL via PyMySQL**  
+- Generate embeddings (Sentence Transformers="all-MiniLM-L6-v2") and store in Pinecone
+- Store metadata in **MySQL via PyMySQL**  
 - Redis-based chat memory for multi-turn conversations  
-- Custom RAG: Retrieve → Augment → Generate (no LangChain RetrievalQAChain)  
+- Custom RAG: Retrieve → Augment → Generate (no LangChain RetrievalQAChain)
+- Supports interview booking via LLM and saves booking details(name,email,date,time) in MYSQL
 
 ---
 
