@@ -1,0 +1,19 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+sentence-transformers
+
+
+
+python-dotenv
+redis
+pinecone
+langchain-pinecone
+pymysql
+cryptography
+fastapi[standard]
+
+
+-e .
